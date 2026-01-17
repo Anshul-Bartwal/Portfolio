@@ -4,6 +4,7 @@ import Button from '../components/Button.jsx'
 import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
+import AnimatedCounter from '../components/AnimatedCounter.jsx'
 const Hero = () => {
     useGSAP(() => {
         gsap.fromTo(".hero-text h1",
@@ -50,6 +51,7 @@ const Hero = () => {
                     <Button 
                         className="md:w-80 md:h-16 w-60 h-12"
                         text="See My Work"
+                        id="Button"
                     />
                 </div>
             </header>
@@ -60,7 +62,11 @@ const Hero = () => {
                 </div>
                 
             </figure>
+
+
         </div>
+
+        <AnimatedCounter />
 
     </section>
   )
