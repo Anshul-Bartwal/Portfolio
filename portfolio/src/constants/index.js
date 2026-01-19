@@ -15,8 +15,14 @@ const counterItems = [
   { value: 11, suffix: "+", label: "Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" }, //basic
 ];
+const work = [
+  {imgPath:"/images/project1.png",heading:"Dectecting Human Emotion based of facial expressions", paragraph:"An app built in Python using tensorFlow, keras,etc with miniException CNN model" },
+  {imgPath:"/images/project2.png",heading:"Library Management System in C"},
+  {imgPath:"/images/project3.png",heading:"PokeDesk"},
 
+]
 export {
   words,
   counterItems,
+  work,
 };
