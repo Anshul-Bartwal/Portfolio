@@ -21,8 +21,29 @@ const work = [
   {imgPath:"/images/project3.png",heading:"PokeDesk"},
 
 ]
+
+
+const navLinks = [
+  {
+    name: "Work",
+    link: "#work",
+  },
+  {
+    name: "Experience",
+    link: "#Experience",
+  },
+  {
+    name: "Skills",
+    link: "#Skills",
+  },
+  {
+    name: "Other",
+    link: "#Other",
+  },
+]
 export {
   words,
   counterItems,
   work,
+  navLinks,
 };
