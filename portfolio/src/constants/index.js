@@ -97,6 +97,48 @@ const abilities = [
   },
 ];
 
+const expCards = [
+  {
+    review:
+      "Anshul did his 10th from Jaswant Modern School where he first saw what computers could do. He along with some of his classmates made a clone for School's website which might not be impressive but for that Anshul it was like painting MonaLisa by his own hands.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/logo1.png",
+    title: "Graduation",
+    date: "August 2025 - Present",
+    responsibilities: [
+      "Developed and maintained user-facing features for the Hostinger website.",
+      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+      "Optimized web applications for maximum speed and scalability.",
+    ],
+  },
+  {
+    review:
+      "Anshul continued to study in JMS for Senior Secondary Education. During this he studied python and contributed in some projects like Emotion Detection and Object Detection.This made him curious about the field of AI and Machine Learning.",
+    imgPath: "/images/exp2.png",
+    logoPath: "/images/logo2.png",
+    title: "Senior Secondary Education",
+    date: "April 2023 - August 2025",
+    responsibilities: [
+      "Led the development of Docker's web applications, focusing on scalability.",
+      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
+      "Contributed to open-source projects that were used with the Docker ecosystem.",
+    ],
+  },
+  {
+    review:
+      "Now Anshul is studying in UPES for his Bachelor's degree in Computer Science and learning everyday to fulfill his dreams. He also iscontributing to open source projects and building his own projects to gain experience and knowledge.",
+    imgPath: "/images/exp3.png",
+    logoPath: "/images/logo3.png",
+    title: "Secondary Education",
+    date: "March 2019 - May 2020",
+    responsibilities: [
+      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+      "Improved app performance and user experience through code optimization and testing.",
+      "Coordinated with the product team to implement features based on feedback.",
+    ],
+  },
+];
+
 export {
   words,
   counterItems,
@@ -104,4 +146,5 @@ export {
   navLinks,
   logoIconsList,
   abilities,
+  expCards,
 };

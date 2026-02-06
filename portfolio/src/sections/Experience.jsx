@@ -1,5 +1,7 @@
 import React from 'react'
 import TitleHeader from '../components/TitleHeader'
+import { expCards } from '../constants'
+import GlowCard from '../components/GlowCard'
 
 const Experience = () => {
   return (
@@ -8,6 +10,25 @@ const Experience = () => {
             <TitleHeader
                 title={"Educational History"}
                 sub={"🎓My Educational overview"}/>
+            <div className='mt-32 relative'>
+              <div className=' relative z-50 xl:space-y-32 space-y-10'>
+                {expCards.map((card,index) =>{
+                  return(
+                    <div className='exp-card-wrapper' key={card.title}>
+                      <div className='xl:w-2/6'>
+                        <GlowCard card={card} index={index}>
+                          <div>
+                            <img src={card.imgPath}  />
+                          </div>
+                        </GlowCard>
+                      </div>
+                    </div>
+                  )
+
+                })}
+
+              </div>
+            </div>
         </div>
         
     </section>
