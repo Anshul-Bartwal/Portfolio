@@ -100,7 +100,7 @@ const abilities = [
 const expCards = [
   {
     review:
-      "Anshul did his 10th from Jaswant Modern School where he first saw what computers could do. He along with some of his classmates made a clone for School's website which might not be impressive but for that Anshul it was like painting MonaLisa by his own hands.",
+      "Now Anshul is studying in UPES for his Bachelor's degree in Computer Science and learning everyday to fulfill his dreams. He also iscontributing to open source projects and building his own projects to gain experience and knowledge.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Graduation",
@@ -127,7 +127,7 @@ const expCards = [
   },
   {
     review:
-      "Now Anshul is studying in UPES for his Bachelor's degree in Computer Science and learning everyday to fulfill his dreams. He also iscontributing to open source projects and building his own projects to gain experience and knowledge.",
+      "Anshul did his 10th from Jaswant Modern School where he first saw what computers could do. He along with some of his classmates made a clone for School's website which might not be impressive but for that Anshul it was like painting MonaLisa by his own hands.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo3.png",
     title: "Secondary Education",
