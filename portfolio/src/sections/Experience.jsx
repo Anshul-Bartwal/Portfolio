@@ -26,7 +26,7 @@ const Experience = () => {
     gsap.to('.timeline',{
       scaleY:0,
       transformOrigin:'bottom bottom',
-      ease:'power1.inOut',
+      ease:'none',
       scrollTrigger:{
         trigger:".timeline",
         start:'top center',
