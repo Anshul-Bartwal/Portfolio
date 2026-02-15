@@ -56,14 +56,14 @@ const Showcase = () => {
                 {/* right */}
                 <div className='project-list-wrapper overflow-hidden'>
                     <div className='project' ref={project2Ref}>
-                        <div className='image-wrapper bg-[#ffefdb]' >
+                        <div className='image-wrapper bg-[#895d32]' >
                             <img src={work[1].imgPath} />
                         </div>
                         <h2>{work[1].heading}</h2>
                     </div>
 
                     <div className='project' ref={project3Ref}>
-                        <div className='image-wrapper bg-[#ffe7bd]' >
+                        <div className='image-wrapper bg-[#051019]' >
                             <img src={work[2].imgPath} />
                         </div>
                         <h2>{work[2].heading}</h2>
